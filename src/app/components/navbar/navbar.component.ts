@@ -14,5 +14,6 @@ export class NavbarComponent {
   
     onLoginClick() {
       this.router.navigate(['/login']);
+      alert("after")
     }
 }
